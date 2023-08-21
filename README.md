@@ -3,7 +3,9 @@
 [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/bgmt-green/)
 
 #### Tecnologias que usamos no dia a dia do nosso projeto 🖥️
-<div style="display: inline_block"><br/>
+
+<div style="display: inline_block">
+<br>
     <img align="center" alt="Windows" src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
     <img align="center" alt="HTML" src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white" />
     <img align="center" alt="CSS" src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white" />
@@ -16,8 +18,7 @@
     <img align="center" alt="Figma" src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
     <img align="center" alt="Arduino" src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white" />
     <img align="center" alt="" src="
-</div><br/>
-      
-Apaixonados por tecnologia, somos um grupo de estudantes da faculdade Invest ciência e tecnologia, estamos desenvolvendo um projeto para faculdade, para a matéria de Projeto integrador.
+</div> 
+<br/>
 
-### teste
+Apaixonados por tecnologia, somos um grupo de estudantes da faculdade Invest ciência e tecnologia, estamos desenvolvendo um projeto para faculdade, para a matéria de Projeto integrador.
