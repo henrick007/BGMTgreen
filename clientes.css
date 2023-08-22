@@ -97,3 +97,9 @@ main,
     width: 80%;
     float: right;
 }
+
+.cabe {
+    width: 100%;
+    float: left;
+    position: relative;
+}
