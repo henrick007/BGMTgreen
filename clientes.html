@@ -66,9 +66,6 @@
                         <a href="./criarclientes.html">Criar Clientes</a>
                     </li>
                     <li>
-                        <a href="">Sobre</a>
-                    </li>
-                    <li>
                         <a id="emailLink" href="#">Suporte</a>
                     </li>
                 </ul>
@@ -78,23 +75,42 @@
     <header>
         <main class="tabela-clientes">
             <div class="header-3">
-                <div class="cabe">
+                <div class="content texto-destaque">
                     <h1>Todos os Clientes</h1>
-                    <input type="text" id="search-bar" placeholder="Pesquisar cliente...">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Code</th>
-                                <th>Nome Fantasia</th>
-                                <th>CPF/CNPJ</th>
-                                <th>Cidade</th>
-                                <th>Estado</th>
-                                <th>E-mail</th>
-                                <th>Telefone</th>
-                            </tr>
-                        </thead>
-                    </table>
+                    <div class="cabe">
+                        <input type="text" id="search-bar" placeholder="Pesquisar cliente...">
+                        <button type="submit" class="search-button">
+                            <img src="./IMG/Pesquisa.png" alt="Icone de Pesquisa">
+                        </button>
+                        <table>
+                            <div class="tab">
+                                <thead>
+                                    <tr>
+                                        <th>Code</th>
+                                        <th>Nome Fantasia</th>
+                                        <th>CPF/CNPJ</th>
+                                        <th>Cidade</th>
+                                        <th>Estado</th>
+                                        <th>E-mail</th>
+                                        <th>Telefone</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1507</td>
+                                        <td>Exemplo A</td>
+                                        <td>123.456.789-10</td>
+                                        <td>Exemplo A</td>
+                                        <td>Exemplo A</td>
+                                        <td>ExemploA@gmail.com</td>
+                                        <td>(12) 3456-7890</td>
+                                    </tr>
+                                    <!-- Add more rows for other clients -->
+                                </tbody>
+                        </table>
+                    </div>
                 </div>
+            </div>
             </div>
         </main>
     </header>
