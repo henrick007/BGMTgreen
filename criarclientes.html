@@ -1,10 +1,10 @@
 <html>
 
 <head>
-    <link rel="stylesheet" type="text/css" href="./CSS/MAIN.css">
-    <link rel="stylesheet" type="text/css" href="./CSS/slick.css" />
+    <link rel="stylesheet" type="text/css" href="./criarclientes.css">
     <title>BGMT Green</title>
     <link rel="icon" href="fav.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
 
@@ -19,17 +19,17 @@
                     <ul>
                         <li>
                             <a href="#" onclick="redirecionarWhatsApp()">
-                                <img src="./IMG/WhatsApp.png" class="WhatsApp">
+                                <img src="./IMG/Whatsappp.png" class="WhatsApp">
                             </a>
                         </li>
                         <li>
                             <a href="#" onclick="redirecionarInstagram()">
-                                <img src="./IMG/Instagram.png" class="Instagram">
+                                <img src="./IMG/Instagramm.png" class="Instagram">
                             </a>
                         </li>
                         <li>
                             <a href="#" onclick="redirecionarLinkedIn()">
-                                <img src="./IMG/Linkedin.png" id="Linkedin" alt="Linkedin">
+                                <img src="./IMG/Linkedinn.png" id="Linkedin" alt="Linkedin">
                             </a>
                         </li>
                     </ul>
@@ -38,12 +38,12 @@
             <div class="alert">
                 <ul>
                     <li>
-                        <a href="#" onclick="redirecionarNotificacao()">
+                        <a href="./notificacao.html" onclick="redirecionarNotificacao()">
                             <img src="./IMG/Notificação.png" id="Notificação" alt="Notificação">
                         </a>
                     </li>
                     <li>
-                        <a href="#" onclick="">
+                        <a href="./perfil.html" onclick="">
                             <img src="./IMG/Perfil.png" id="Perfil" alt="Perfil">
                         </a>
                     </li>
@@ -57,13 +57,13 @@
             <div class="home">
                 <ul>
                     <li>
-                        <a href="">Pagina Inicial</a>
+                        <a href="./index.html">Pagina Inicial</a>
                     </li>
                     <li>
-                        <a href="">Clientes</a>
+                        <a href="./clientes.html">Clientes</a>
                     </li>
                     <li>
-                        <a href="">Criar Clientes</a>
+                        <a href="./criarclientes.html">Criar Clientes</a>
                     </li>
                     <li>
                         <a id="emailLink" href="#">Suporte</a>
@@ -71,3 +71,80 @@
                 </ul>
             </div>
         </div>
+    </main>
+    <header>
+        <main class="tabela">
+            <div class="header-3">
+                <div class="cont texto-destaque">
+                    <h1>Cadastro de Clientes</h1>
+                    <div class="sub">
+                        <form>
+                            <label for="code">Code:</label>
+                            <input type="text" id="code" name="code">
+
+                            <label for="fantasy_name">Nome Fantasia:</label>
+                            <input type="text" id="fantasy_name" name="fantasy_name">
+
+                            <label for="legal_name">Razão Social:</label>
+                            <input type="text" id="legal_name" name="legal_name">
+
+                            <label for="industry">Ramo de Atuação:</label>
+                            <input type="text" id="industry" name="industry">
+
+                            <label for="email">E-mail:</label>
+                            <input type="email" id="email" name="email">
+
+                            <label for="phone">Telefone:</label>
+                            <input type="tel" id="phone" name="phone">
+
+                            <label for="address">Endereço:</label>
+                            <input type="text" id="address" name="address">
+
+                            <label for="zip_code">CEP:</label>
+                            <input type="text" id="zip_code" name="zip_code">
+
+                            <label for="city">Cidade:</label>
+                            <input type="text" id="city" name="city">
+
+                            <label for="state">Estado (UF):</label>
+                            <select id="state" name="state">
+                                <option value="AC">Acre (AC)</option>
+                                <option value="AC">Alagoas (AL)</option>
+                                <option value="AC">Amapá (AP)</option>
+                                <option value="AC">Amazonas (AM)</option>
+                                <option value="AC">Bahia (BA)</option>
+                                <option value="AC">Ceará (CE)</option>
+                                <option value="AC">Distrito Federal (DF)</option>
+                                <option value="AC">Espírito Santo (ES)</option>
+                                <option value="AC">Goiás (GO)</option>
+                                <option value="AC">Maranhão (MA)</option>
+                                <option value="AC">Mato Grosso (MT)</option>
+                                <option value="AC">Mato Grosso do Sul (MS)</option>
+                                <option value="AC">Minas Gerais (MG)</option>
+                                <option value="AC">Pará (PA)</option>
+                                <option value="AC">Paraíba (PB)</option>
+                                <option value="AC">Paraná (PR)</option>
+                                <option value="AC">Pernanbuco (PE)</option>
+                                <option value="AC">Piauí (PI)</option>
+                                <option value="AC">Rio de Janeiro (RJ)</option>
+                                <option value="AC">Rio Grande do Norte (RN)</option>
+                                <option value="AC">Rio Grande do Sul (RS)</option>
+                                <option value="AC">Rondônia (RO)</option>
+                                <option value="AC">Roraima (RR)</option>
+                                <option value="AC">Santa Catarina (SC)</option>
+                                <option value="AC">São Paulo (SP)</option>
+                                <option value="AC">Sergipe (SE)</option>
+                                <option value="AC">Tocantis (TO)</option>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </header>
+    <script type="text/javascript" src="./jquery.js"></script>
+    <script type="text/javascript" src="./jquery.migrate.js"></script>
+    <script type="text/javascript" src="./slick.min.js"></script>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+
+</html>

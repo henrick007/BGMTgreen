@@ -17,14 +17,16 @@ ul {
 main,
 .content {
     margin: 0 auto;
-    width: 980px;
+    width: 100%;
+    max-width: 1280px;
     position: relative;
 }
 
 .logo {
     padding: 20px;
     float: left;
-    width: 70%;
+    width: 50%;
+
 }
 
 .redes-sociais ul li {
@@ -41,19 +43,20 @@ main,
 
 .header-2 {
     background-color: #ffffff;
-    width: 980px;
+    width: 100%;
+    max-width: 685px;
     margin: 0 auto;
     padding: 16px;
 }
 
 .menu-urls {
     height: 80px;
-    border-bottom: 3px solid #efefef;
+    border-bottom: 3px solid #ffffff;
 }
 
 .home ul li {
     display: inline-block;
-    color: #8b8b8b;
+    color: #ffffff;
     margin-left: 15px;
     height: 50px;
 }
@@ -76,4 +79,22 @@ main,
 .home {
     width: 90%;
     float: left;
+}
+
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.alert ul li {
+    margin-left: 23px;
+    display: block;
+    float: right;
+    list-style: none;
+}
+
+.alert {
+    width: 80%;
+    float: right;
 }
