@@ -98,3 +98,14 @@ main,
     width: 80%;
     float: right;
 }
+
+.header-3 {
+    width: 100%;
+    float: left;
+    position: relative;
+    padding: 10px;
+}
+
+h1 {
+    color: #025F1C;
+}
