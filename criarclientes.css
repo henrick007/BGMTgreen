@@ -109,3 +109,145 @@ main,
 h1 {
     color: #025F1C;
 }
+
+#foto {
+    float: right;
+    height: 30%;
+    width: 30%;
+    margin: 1px;
+    border: 1px solid#9b9999;
+    border-radius: 2%;
+
+}
+
+.dados {
+    float: left;
+    width: 60%;
+    height: 60%;
+    border: 1px solid #9b9999;
+    border-radius: 1%;
+}
+
+#salvar {
+    position: relative;
+    float: right;
+    bottom: -45;
+    background-color: transparent;
+    border: 0;
+
+}
+
+#code {
+    width: 7%;
+}
+
+#fantasia {
+    width: 70%;
+}
+
+#social {
+    width: 70%;
+}
+
+#ramo {
+    width: 70%;
+}
+
+#email {
+    width: 70%;
+}
+
+#fixo {
+    width: 30%;
+}
+
+#celular {
+    width: 30%;
+}
+
+#end {
+    width: 70%;
+}
+
+#cep {
+    width: 20%;
+}
+
+#city {
+    width: 40%;
+}
+
+#cod {
+    margin-bottom: 5;
+    margin-left: 10;
+    font-weight: bold;
+}
+
+#name {
+    margin-bottom: 5;
+    margin-left: 10;
+    font-weight: bold;
+}
+
+#soc {
+    margin-bottom: 5;
+    margin-left: 10;
+    font-weight: bold;
+}
+
+#ram {
+    margin-bottom: 5;
+    margin-left: 10;
+    font-weight: bold;
+}
+
+#ema {
+    margin-bottom: 5;
+    margin-left: 10;
+    font-weight: bold;
+}
+
+#fix {
+    margin-bottom: 5;
+    margin-left: 10;
+    font-weight: bold;
+}
+
+#cell {
+    margin-bottom: 5;
+    margin-left: 10;
+    font-weight: bold;
+}
+
+#ed {
+    margin-bottom: 5;
+    margin-left: 10;
+    font-weight: bold;
+}
+
+#pec {
+    margin-bottom: 5;
+    margin-left: 10;
+    font-weight: bold;
+}
+
+#cid {
+    margin-bottom: 15;
+    margin-left: 10;
+    font-weight: bold;
+}
+
+#est {
+    margin-bottom: 5;
+    margin-left: 10;
+    font-weight: bold;
+}
+
+.rodape {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
