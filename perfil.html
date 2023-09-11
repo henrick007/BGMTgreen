@@ -1,10 +1,10 @@
 <html>
 
 <head>
-    <link rel="stylesheet" type="text/css" href="./CSS/MAIN.css">
-    <link rel="stylesheet" type="text/css" href="./CSS/slick.css" />
+    <link rel="stylesheet" type="text/css" href="./perfil.css">
     <title>BGMT Green</title>
     <link rel="icon" href="fav.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
 
@@ -38,12 +38,12 @@
             <div class="alert">
                 <ul>
                     <li>
-                        <a href="#" onclick="redirecionarNotificacao()">
+                        <a href="./notificacao.html" onclick="">
                             <img src="./IMG/Notificação.png" id="Notificação" alt="Notificação">
                         </a>
                     </li>
                     <li>
-                        <a href="#" onclick="">
+                        <a href="./perfil.html" onclick="">
                             <img src="./IMG/Perfil.png" id="Perfil" alt="Perfil">
                         </a>
                     </li>
@@ -57,13 +57,13 @@
             <div class="home">
                 <ul>
                     <li>
-                        <a href="">Pagina Inicial</a>
+                        <a href="./index.html">Pagina Inicial</a>
                     </li>
                     <li>
-                        <a href="">Clientes</a>
+                        <a href="./clientes.html">Clientes</a>
                     </li>
                     <li>
-                        <a href="">Criar Clientes</a>
+                        <a href="./criarclientes.html">Criar Clientes</a>
                     </li>
                     <li>
                         <a id="emailLink" href="#">Suporte</a>
@@ -71,3 +71,56 @@
                 </ul>
             </div>
         </div>
+    </main>
+    <header>
+        <main>
+            <div class="header-3">
+                <div class="quad">
+                    <form>
+                        <div>
+                            <label>Code</label>
+                            </br>
+                            <input type="text" name="code" id="code" required>
+                        </div>
+                        <div>
+                            <label>Nome do Funcionario</label>
+                            </br>
+                            <input type="text" name="nome" id="nome" required>
+                        </div>
+                        <div>
+                            <label>Nome da Empresa</label>
+                            </br>
+                            <input type="text" name="empresa" id="empresa" required>
+                        </div>
+                        <div>
+                            <label>Cargo na Empresa</label>
+                            </br>
+                            <input type="text" name="cargo" id="cargo" required>
+                        </div>
+                        <div>
+                            <label>Telefone Fixo</label>
+                            </br>
+                            <input type="text" name="fixo" id="fixo" required>
+                        </div>
+                        <div>
+                            <label>Telefone Celular</label>
+                            </br>
+                            <input type="text" name="cell" id="cell" required>
+                        </div>
+                        <div>
+                            <label>E-mail</label>
+                            </br>
+                            <input type="text" name="email" id="email" required>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+    </header>
+    <script type="text/javascript" src="./jquery.js"></script>
+    <script type="text/javascript" src="./jquery.migrate.js"></script>
+    <script type="text/javascript" src="./slick.min.js"></script>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+
+</html>
