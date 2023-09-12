@@ -76,47 +76,53 @@
         <main>
             <div class="header-3">
                 <div class="quad">
-                    <form>
-                        <div>
-                            <label>Code</label>
-                            </br>
-                            <input type="text" name="code" id="code" required>
-                        </div>
-                        <div>
-                            <label>Nome do Funcionario</label>
-                            </br>
-                            <input type="text" name="nome" id="nome" required>
-                        </div>
-                        <div>
-                            <label>Nome da Empresa</label>
-                            </br>
-                            <input type="text" name="empresa" id="empresa" required>
-                        </div>
-                        <div>
-                            <label>Cargo na Empresa</label>
-                            </br>
-                            <input type="text" name="cargo" id="cargo" required>
-                        </div>
-                        <div>
-                            <label>Telefone Fixo</label>
-                            </br>
-                            <input type="text" name="fixo" id="fixo" required>
-                        </div>
-                        <div>
-                            <label>Telefone Celular</label>
-                            </br>
-                            <input type="text" name="cell" id="cell" required>
-                        </div>
-                        <div>
-                            <label>E-mail</label>
-                            </br>
-                            <input type="text" name="email" id="email" required>
-                        </div>
-                    </form>
+                    <div id="cod">
+                        <label>Code</label>
+                        </br>
+                        <input type="text" name="code" id="code" required>
+                    </div>
+                    <div id="name">
+                        <label>Nome do Funcionario</label>
+                        </br>
+                        <input type="text" name="nome" id="nome" required>
+                    </div>
+                    <div id="emp">
+                        <label>Nome da Empresa</label>
+                        </br>
+                        <input type="text" name="empresa" id="empresa" required>
+                    </div>
+                    <div id="car">
+                        <label>Cargo na Empresa</label>
+                        </br>
+                        <input type="text" name="cargo" id="cargo" required>
+                    </div>
+                    <div id="fix">
+                        <label>Telefone Fixo</label>
+                        </br>
+                        <input type="text" name="fixo" id="fixo">
+                    </div>
+                    <div id="cel">
+                        <label>Telefone Celular</label>
+                        </br>
+                        <input type="text" name="cell" id="cell">
+                    </div>
+                    <div id="eml">
+                        <label>E-mail</label>
+                        </br>
+                        <input type="text" name="email" id="email" required>
+                    </div>
                 </div>
+                <div>
+                    <input type="file" name="foto" id="foto" accept="image/*">
+                </div>
+                </form>
             </div>
         </main>
     </header>
+    <div class="rodape">
+        <img src="./IMG/rodape.png" alt="rodapepg" id="img-rod">
+    </div>
+
     <script type="text/javascript" src="./jquery.js"></script>
     <script type="text/javascript" src="./jquery.migrate.js"></script>
     <script type="text/javascript" src="./slick.min.js"></script>

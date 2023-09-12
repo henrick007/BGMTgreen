@@ -123,7 +123,7 @@ h1 {
 .dados {
     float: left;
     width: 60%;
-    height: 60%;
+    height: 65%;
     border: 1px solid #9b9999;
     border-radius: 1%;
 }
@@ -131,7 +131,7 @@ h1 {
 #salvar {
     position: relative;
     float: right;
-    bottom: -45;
+    bottom: -35;
     background-color: transparent;
     border: 0;
 
@@ -178,66 +178,77 @@ h1 {
 }
 
 #cod {
+    margin-top: 10;
     margin-bottom: 5;
     margin-left: 10;
     font-weight: bold;
 }
 
 #name {
+    margin-top: 10;
     margin-bottom: 5;
     margin-left: 10;
     font-weight: bold;
 }
 
 #soc {
+    margin-top: 10;
     margin-bottom: 5;
     margin-left: 10;
     font-weight: bold;
 }
 
 #ram {
+    margin-top: 10;
     margin-bottom: 5;
     margin-left: 10;
     font-weight: bold;
 }
 
 #ema {
+    margin-top: 10;
     margin-bottom: 5;
     margin-left: 10;
     font-weight: bold;
 }
 
 #fix {
+    margin-top: 10;
     margin-bottom: 5;
     margin-left: 10;
     font-weight: bold;
 }
 
 #cell {
+    margin-top: 10;
     margin-bottom: 5;
     margin-left: 10;
     font-weight: bold;
 }
 
 #ed {
+    margin-top: 10;
     margin-bottom: 5;
     margin-left: 10;
     font-weight: bold;
 }
 
 #pec {
+    margin-top: 10;
     margin-bottom: 5;
     margin-left: 10;
     font-weight: bold;
 }
 
 #cid {
+    margin-top: 10;
     margin-bottom: 15;
     margin-left: 10;
     font-weight: bold;
 }
 
 #est {
+    margin-top: 10;
     margin-bottom: 5;
     margin-left: 10;
     font-weight: bold;
