@@ -1,8 +1,9 @@
-### Olá! Somos o BGMT Green✌️
+### Hello! We are BGMT Green✌️
+
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/bgmtgreen?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D)
 [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/bgmt-green/)
 
-#### Tecnologias que usamos no dia a dia do nosso projeto 🖥️
+#### Technologies we use on a daily basis in our project 🖥️
 
 <div style="display: inline_block">
 <br>
@@ -18,7 +19,8 @@
     <img align="center" alt="Figma" src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
     <img align="center" alt="Arduino" src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white" />
     <img align="center" alt="" src="
-</div> 
-<br/>
+</div>
 
-Apaixonados por tecnologia, somos um grupo de estudantes da faculdade Invest ciência e tecnologia, estamos desenvolvendo um projeto para faculdade, para a matéria de Projeto integrador.
+<br>
+
+Passionate about technology, we are a group of students from Invest science and technology college, we are developing a project for college, for the subject of Integrative Project.
